@@ -20,6 +20,7 @@ h5{
 .header{
     background-color: rgba(255,105,0,255);
     position: fixed;
+    z-index: 50;
     top: 0;
     left: 0;
     right: 0;
@@ -83,54 +84,75 @@ h5{
     width: 100%;
 }
 
-
-.hearts{
-    font-size: 35px;
-}
 .square{
     background-color: white;
     padding: 5px 15px;
     font-weight: bold;
-}
-
-.green{
-    background-color: green;
-    color: white;
-}
-
-.red{
-    background-color: red;
-     color: white;
-}
-
-.line{
-    text-decoration-line: line-through;
-}
-
-.position-relative{
-    position: relative;
-    font-size: 13px;
-    margin-bottom: 1px;
-}
-
-.position-absolute{
     position: absolute;
     top: 0;
     right: 0;
     margin-top: 10px;
+    font-size: 35px;
 }
 
-.position-absolute-1{
+.target1{
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
     position: absolute;
     bottom: 0;
     left: 0;
     margin-bottom: 40px;
 }
 
-.position-absolute-2{
+.target2{
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
     position: absolute;
     bottom: 0;
-    left: 65px;
+    left: 55px;
     margin-bottom: 40px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.line{
+    text-decoration-line: line-through;
+}
+
+.card{
+    position: relative;
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+
+.square:hover{
+    background-color: white;
+    color: red;
+}
+
+.card:hover .b{
+    display: block;
+}
+
+.card:hover .a{
+    display: none;
+}
+
+.a{
+    display: block;
+}
+
+.b{
+    display: none;
 }
 /* End Main */
