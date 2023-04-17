@@ -72,6 +72,7 @@ h5{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 70px;
 }
 
 .col{
@@ -156,3 +157,40 @@ h5{
     display: none;
 }
 /* End Main */
+
+/* Footer */
+.footer{
+    background-color: rgba(26,27,27,255);
+
+}
+
+.row-footer{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.col-75{
+    width: 75%;
+    line-height: 1.4;
+}
+
+.left-footer-content{
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.right{
+    padding-right: 30px;
+    margin-left: 530px;
+    line-height: 1.8;
+}
+
+.social{
+    padding-right: 5px;
+}
+/* End Footer */
